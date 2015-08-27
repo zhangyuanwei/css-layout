@@ -76,7 +76,7 @@ public class CSSNode {
     }
     if (mChildren == null) {
       // 4 is kinda arbitrary, but the default of 10 seems really high for an average View.
-      mChildren = new ArrayList<>(4);
+      mChildren = new ArrayList<CSSNode>(4);
     }
 
     mChildren.add(i, child);
